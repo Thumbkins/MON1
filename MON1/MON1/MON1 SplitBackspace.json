@@ -1,13 +1,13 @@
 {
-  "name": "MON1",
-  "vendorId": "0xFEED",
-  "productId": "0x6060",
-  "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5,"cols": 16},
-    "layouts": {
-        "keymap":  [
+    "name": "MON1",
+    "vendorId": "0xFEED",
+    "productId": "0x6060",
+    "lighting": "qmk_rgblight",
+    "matrix": {"rows": 5,"cols": 16},
+      "layouts": {
+          "keymap": [
             {
-              "name": "via"
+              "name":"via"
             },
             [
               {
@@ -22,13 +22,13 @@
               },
               "0,11",
               "0,12",
-              {
-                "w": 2
-              },
               "0,13",
               {
-                "x": 0.25,
                 "f": 3
+              },
+              "0,14",
+              {
+                "x": 0.25
               },
               "0,15"
             ],
@@ -221,9 +221,8 @@
               "4,9"
             ]
           ]
-
-    }
-    
-}
-
-
+  
+      }
+      
+  }
+  
